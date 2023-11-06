@@ -1,0 +1,239 @@
+body {
+  margin: 0;
+  background-color: #F9F9F9;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+p {
+  line-height: 2;
+}
+
+
+.top-container {
+  /* display: inline-block; */
+  position: relative;
+  background-color: #EFF5F5;
+  /* height: 200px; */
+  /* width: 200px; */
+  /* border: 10px solid black; */
+  /* padding: 20px; */
+  margin: 0;
+  padding: 0 100px 0 0;
+  /* right: 00px */
+}
+
+.middle-container {
+  position: relative;
+}
+
+.bottom-container {
+  position: relative;
+  background-color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  margin: 0 auto 5px auto;
+  padding-top: 100px;
+  color: #316B83;
+  /* line-height: 2; */
+  /* margin: auto; */
+  /* font-family: 'Sacramento', cursive; */
+  /* font-family: 'Caveat', cursive; */
+  /* font-family: 'Pacifico', cursive; */
+}
+
+h2 {
+  margin: 0 auto 0 auto;
+  color: #316B83;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+  margin-bottom: 0;
+}
+
+.me {
+  /* font-family: 'Caveat', cursive; */
+  /* font-family: 'Pacifico', cursive; */
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  /* 100% = 16px = 1em or rem==root em */
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.top-cloude {
+  position: absolute;
+  right: 200px;
+  top: 50px
+}
+
+.bottom-cloude {
+  position: absolute;
+  left: 200px;
+  bottom: 250px;
+}
+
+.profile-row {
+  /* display: inline-block; */
+  width: 50%;
+  text-align: center;
+  margin: 100px auto 100px auto;
+  /* line-height: 2; */
+}
+
+.profile-pic {
+  /* float: left; */
+  margin: 30px auto auto auto;
+  width: 30%;
+  height: 30%;
+}
+
+.intro{
+  width: 80%;
+  margin: auto;
+}
+
+.skills-header {
+  padding-top: 50px;
+  display: inline-block;
+  width: 40%;
+  text-align: center;
+  margin: auto;
+}
+
+.owl {
+  float: right;
+  margin-left: 30px;
+  width: 20%;
+  height: 80%;
+}
+
+.skill-row {
+  width: 50%;
+  text-align: left;
+  margin: 100px auto 100px auto;
+  /* line-height: 1.5; */
+}
+
+.chip-pic {
+  float: left;
+  margin-right: 50px;
+}
+
+.prog-icon {
+  display: inline-block;
+  float: right;
+  position: relative;
+  width: 20%;
+  margin-right: 10px;
+}
+
+.prog-pic {
+  /* position: relative; */
+  width: 40%;
+  height: 20%;
+  /* float: left; */
+  margin: auto 0 5px 5px;
+}
+
+.hobbies {
+  display: inline-block;
+  float: left;
+  position: relative;
+  width: 20%;
+  margin-right: 10px;
+}
+
+.hobbies-pic {
+  position: relative;
+  width: 40%;
+  height: 20%;
+  /* float: left; */
+  margin: auto 5px 5px 0;
+}
+
+.hr-dotted {
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 6px;
+  color: #6886C5;
+  margin: 60px auto 60px auto;
+  height: 0;
+  width: 5%;
+}
+
+.btn {
+  display: inline-block;
+  background: #66BFBF;
+  background-image: -webkit-linear-gradient(top, #66BFBF, #2980b9);
+  background-image: -moz-linear-gradient(top, #66BFBF, #2980b9);
+  background-image: -ms-linear-gradient(top, #66BFBF, #2980b9);
+  background-image: -o-linear-gradient(top, #66BFBF, #2980b9);
+  background-image: linear-gradient(to bottom, #66BFBF, #2980b9);
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  margin: 50px auto;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+
+.copyrights {
+color: #EAF6F6;
+font-size: 0.75rem;
+}
+
+.footer-link {
+  display: inline-block;
+  margin: 30px 20px 10px 20px;
+  color: #11999E;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  color: #F8F8FF;
+}
+
+.credits-header{
+  margin: 10px auto 5px auto;
+}
+
+.footer-attributes {
+  margin: 5px 20px;
+  display: inline-block;
+  /* height: 0.5rem; */
+  color: #11999E;
+  text-decoration: none;
+  font-size: 0.75rem;
+}
+
+.footer-attributes:hover {
+  color: #F8F8FF;
+}
+.credits{
+  width: 70%;
+  margin:  auto;
+  padding-bottom: 20px;
+}
